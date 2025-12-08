@@ -4,6 +4,16 @@
         <title>Portfolio</title>
     </head>
     <body>
-        Hey there
+        <div onclick="handleClick()" id="greet">
+            Hey there
+        </div>
+        <script>
+            let value = "Hey there";
+
+            function handleClick() {
+                value = value + value;
+                document.getElementById("greet").innerText = value;
+            }
+        </script>
     </body>
 </html>
