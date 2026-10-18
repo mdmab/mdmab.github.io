@@ -63,3 +63,9 @@ a:active {
     background-color: #ababab;
     border-color: black;
 }
+
+@media (max-width: 600px) {
+    .topbar {
+        padding: 0.75em 1em;
+    }
+}

@@ -27,3 +27,30 @@
 .profile:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+    .description {
+        padding: 0 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .nameplate {
+        font-size: 1.75rem;
+        padding: 0.75em 1em;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .name {
+        padding: 0.1em 0;
+    }
+
+    .description {
+        padding: 0 1.25em 2em;
+    }
+
+    .profile {
+        padding: 0.4em 0;
+    }
+}
